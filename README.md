@@ -40,7 +40,7 @@ Example with blue mat-button
 * click
     * javascript code
 
-By default the float button is at left bottom and have not event
+By default the float button is at left bottom and have no event.
 ```html
 <mat-float href="https//google.com/" target  logo="https://myLogo.com/logo.jpeg"
 top
@@ -57,14 +57,14 @@ left
 ```
 > mat-card
 
-The height is auto so you can paste any type of element size
+The height is responsive so you can paste any type of element size
 ```html
 <mat-card></mat-card>
 ```
 
 > mat-card-r
 
-The mat-card-r height is not auto resize so you have to specify the type of height you won't
+The mat-card-r height is not auto resize so you have to specify the type of height you won't.
 ```html
 <mat-card-r></mat-card-r>
 ```
@@ -79,7 +79,7 @@ The mat-card-r height is not auto resize so you have to specify the type of heig
 
 > mat-live
 
-Mat-live element is a live element , his id is "mat-l" + mat-live.length by default , so wen the element change an event is emit to document . You can change this default id in past attributes tag .
+Mat-live element is a live element , his id is "mat-l" + mat-live.length by default , so wen the element change an event is emit to document . You can change this default id by pasting attribute tag .
 
 ```html
 <mat-live></mat-live>
