@@ -1,5 +1,5 @@
 # RPHtmlElement
-This is RPHtmlElement for Fast HTML Element in english. You can use it for layout or fast coding.
+Here is RPHtmlElement for Fast HTML Element in English. You can use it for layout or quick coding.
 
 # Instalation
 
@@ -40,7 +40,7 @@ Example with blue mat-button
 * click
     * javascript code
 
-By default the float button is at left bottom and have no event.
+By default, the floating button is at the bottom left and has no event.
 ```html
 <mat-float href="https//google.com/" target  logo="https://myLogo.com/logo.jpeg"
 top
@@ -64,7 +64,7 @@ The height is responsive so you can paste any type of element size
 
 > mat-card-r
 
-The mat-card-r height is not auto resize so you have to specify the type of height you won't.
+The height of the mat-card-r is not automatically resized, so you need to specify the type of height you want.
 ```html
 <mat-card-r></mat-card-r>
 ```
@@ -75,6 +75,16 @@ The mat-card-r height is not auto resize so you have to specify the type of heig
 
 ```html
 <mat-item></mat-item>
+```
+> mat-image
+
+Mat-Image uses IntersectionObserver to optimize the page load
+
+* src
+  * url
+
+```html
+<mat-image src="url"></mat-image>
 ```
 
 > mat-live
@@ -119,7 +129,7 @@ Simple dropdown element
 
 ## Contributing
 
-- hadding new element
+- add new RPElement
 - create live element 
 - loader element
 - promise ajax auto element
